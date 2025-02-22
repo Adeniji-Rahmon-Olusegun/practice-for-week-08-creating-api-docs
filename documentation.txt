@@ -1,0 +1,12 @@
+GET /posts
+POST /posts
+PUT/PATCH /posts/:postId
+POST /users
+GET /posts/:postId/comments
+POST /posts/:postId/comments
+PUT/PATCH /posts/:postId/comments/:commentId
+DELETE /posts/:postId/comments/:commentId
+POST /posts/:postId/likes
+DELETE /posts/:postId/likes
+GET /users/:userId/posts
+GET /posts?search=keyword
